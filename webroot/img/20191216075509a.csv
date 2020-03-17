@@ -1,0 +1,2 @@
+項目マッピングNO,連携リソースコード,Jobmakerテーブル,Jobmakerカラム,HRBCリソース,HRBCフィールド,データマッピング有無,固定値
+1,10,NULL,sex,NULL,NULL,1,NULL

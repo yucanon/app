@@ -1,0 +1,22 @@
+.button-functions button {
+	margin: 0;
+}
+
+/* ブランドテキストのトグル表示 */
+body:not(.sidebar-open)  .brand-text-disp-collapse,
+body:not(.sidebar-collapse)  .brand-text-disp-collapse,
+body.sidebar-open .brand-text-disp-collapse {
+	display:none;
+}
+body.sidebar-collapse .brand-text-disp-collapse {
+	display:inline;
+	padding-left: 10px;
+}
+
+.content-header h1 {
+	font-size: 1.6em;
+}
+
+.layout-fixed .main-sidebar {
+	overflow: hidden;
+}
